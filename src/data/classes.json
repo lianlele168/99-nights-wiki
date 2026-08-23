@@ -1,0 +1,74 @@
+[
+  {
+    "id": "scavenger",
+    "name": "Scavenger",
+    "tier": "S",
+    "cost": 80,
+    "description": "Extra backpack space and faster chest opening. The best class for beginners and experienced players alike.",
+    "perks": ["Extra inventory slots", "Open chests 50% faster", "Find more loot in chests"],
+    "level2Req": "Open 50 chests",
+    "level3Req": "Open 150 chests",
+    "bestFor": ["Solo", "Beginners", "Loot farming"],
+    "updatedDate": "2026-08-01"
+  },
+  {
+    "id": "engineer",
+    "name": "Engineer",
+    "tier": "S",
+    "cost": 150,
+    "description": "Deploy automated turrets to defend your camp while you explore.",
+    "perks": ["Place automated turrets", "Turrets deal damage to cultists", "Build camp defenses"],
+    "level2Req": "Build 20 turrets",
+    "level3Req": "Build 60 turrets",
+    "bestFor": ["Team play", "Camp defense", "Advanced players"],
+    "updatedDate": "2026-08-01"
+  },
+  {
+    "id": "big-game-hunter",
+    "name": "Big Game Hunter",
+    "tier": "A",
+    "cost": 120,
+    "description": "Specialized in hunting large animals for maximum food and resources.",
+    "perks": ["Deal bonus damage to animals", "Extra meat from kills", "Track animal locations"],
+    "level2Req": "Kill 30 large animals",
+    "level3Req": "Kill 100 large animals",
+    "bestFor": ["Solo", "Resource farming"],
+    "updatedDate": "2026-08-01"
+  },
+  {
+    "id": "cyborg",
+    "name": "Cyborg",
+    "tier": "A",
+    "cost": 200,
+    "description": "Enhanced combat abilities with mechanical augmentations.",
+    "perks": ["Increased damage output", "Faster movement speed", "Reduced stamina cost"],
+    "level2Req": "Deal 5000 total damage",
+    "level3Req": "Deal 20000 total damage",
+    "bestFor": ["Combat", "Team play"],
+    "updatedDate": "2026-08-01"
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "tier": "A",
+    "cost": 180,
+    "description": "Stealth-focused class with high burst damage.",
+    "perks": ["Backstab bonus damage", "Reduced noise", "Sprint speed boost"],
+    "level2Req": "Perform 20 backstabs",
+    "level3Req": "Perform 60 backstabs",
+    "bestFor": ["Solo", "PvP", "Advanced players"],
+    "updatedDate": "2026-08-01"
+  },
+  {
+    "id": "camper",
+    "name": "Camper",
+    "tier": "B",
+    "cost": 30,
+    "description": "A budget-friendly entry-level class. Good for new players saving diamonds.",
+    "perks": ["Basic campfire bonus", "Slightly reduced wood cost"],
+    "level2Req": "Burn 200 logs",
+    "level3Req": "Burn 600 logs",
+    "bestFor": ["Beginners", "Budget players"],
+    "updatedDate": "2026-08-01"
+  }
+]

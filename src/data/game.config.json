@@ -1,0 +1,35 @@
+{
+  "game": {
+    "name": "99 Nights in the Forest",
+    "slug": "99-nights-in-the-forest",
+    "robloxId": "17625359962",
+    "developer": "Grandma's Favorite Games",
+    "genre": "Survival Horror",
+    "currentVersion": "2026",
+    "lastUpdated": "2026-08-23"
+  },
+  "stats": {
+    "visits": "1B+",
+    "favorites": "2M+",
+    "onlineNow": "50K+"
+  },
+  "seo": {
+    "siteTitle": "99 Nights in the Forest Wiki — Codes, Class Tier List & Guides 2026",
+    "siteDescription": "The #1 unofficial 99 Nights in the Forest wiki. Find all active codes, class tier list, entity guide, diamond tips, and survival strategies. Updated daily.",
+    "baseUrl": "https://99-nights-wiki.com",
+    "primaryKeywords": ["99 Nights in the Forest", "99 Nights in the Forest wiki", "99 Nights in the Forest codes"],
+    "secondaryKeywords": ["99 Nights in the Forest class tier list", "99 Nights in the Forest entity guide", "99 Nights in the Forest diamonds", "99 Nights in the Forest beginner guide"]
+  },
+  "routes": [
+    { "path": "/", "title": "99 Nights in the Forest Wiki", "priority": "1.0" },
+    { "path": "/calculator", "title": "99 Nights Survival Calculator", "priority": "0.9" },
+    { "path": "/codes", "title": "99 Nights in the Forest Codes", "priority": "0.9" },
+    { "path": "/class-tier-list", "title": "99 Nights in the Forest Class Tier List", "priority": "0.9" },
+    { "path": "/entity-guide", "title": "99 Nights in the Forest Entity Guide", "priority": "0.9" },
+    { "path": "/diamonds-guide", "title": "99 Nights in the Forest Diamonds Guide", "priority": "0.8" },
+    { "path": "/flame-guide", "title": "99 Nights in the Forest Flame Guide", "priority": "0.8" },
+    { "path": "/beginner-guide", "title": "99 Nights in the Forest Beginner Guide", "priority": "0.8" },
+    { "path": "/about", "title": "About", "priority": "0.3" },
+    { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.3" }
+  ]
+}

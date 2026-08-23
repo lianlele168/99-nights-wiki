@@ -1,0 +1,36 @@
+[
+  {
+    "code": "FORESTWAKESUP26",
+    "reward": "15 Diamonds + 3 random Flames",
+    "source": "Developer",
+    "addedDate": "2026-01-01",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "AFTERPARTY",
+    "reward": "15 Diamonds",
+    "source": "Developer",
+    "addedDate": "2025-12-01",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "YAY FISHING",
+    "reward": "2 Diamonds (type in chat during fishing minigame)",
+    "source": "Secret",
+    "addedDate": "2025-06-01",
+    "status": "active",
+    "isNew": false,
+    "special": true,
+    "specialNote": "Must be typed in global chat while in the fishing minigame with a fishing rod equipped"
+  },
+  {
+    "code": "HAPPYHALLOWEEN",
+    "reward": "10 Candy (Halloween event)",
+    "source": "Developer",
+    "addedDate": "2025-10-31",
+    "status": "expired",
+    "isNew": false
+  }
+]

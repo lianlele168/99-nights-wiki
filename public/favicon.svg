@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="50%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#92400e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  <!-- Glow -->
+  <rect width="32" height="32" rx="6" fill="url(#fireGlow)"/>
+  <!-- Left tree -->
+  <polygon points="3,22 6.5,13 10,22" fill="#15803d"/>
+  <rect x="5.5" y="22" width="2" height="3" fill="#92400e"/>
+  <!-- Right tree -->
+  <polygon points="22,22 25.5,13 29,22" fill="#15803d"/>
+  <rect x="24.5" y="22" width="2" height="3" fill="#92400e"/>
+  <!-- Campfire logs -->
+  <ellipse cx="16" cy="23.5" rx="6" ry="1.5" fill="#78350f"/>
+  <line x1="10.5" y1="24" x2="21.5" y2="23" stroke="#92400e" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="11" y1="23" x2="21" y2="24" stroke="#78350f" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Flames -->
+  <path d="M13.5 23 Q14.5 17 16 15 Q17.5 17 18.5 23 Z" fill="#f59e0b"/>
+  <path d="M14.5 23 Q15 18.5 16 17 Q17 18.5 17.5 23 Z" fill="#fcd34d"/>
+  <path d="M15.3 23 Q15.7 20 16 19.5 Q16.3 20 16.7 23 Z" fill="#fef3c7"/>
+</svg>

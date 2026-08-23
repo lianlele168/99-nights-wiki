@@ -1,0 +1,132 @@
+[
+  {
+    "id": "the-deer",
+    "name": "The Deer",
+    "category": "Primary Monster",
+    "threat": "Extreme",
+    "immortal": true,
+    "description": "The primary antagonist of the forest. Extremely fast, highly hostile, and cannot be killed. Avoid at all costs.",
+    "behavior": "Actively hunts players. Will pursue for long distances.",
+    "tips": ["Never fight it — run", "Campfire light keeps it at bay", "Circle around trees to break line of sight"]
+  },
+  {
+    "id": "the-owl",
+    "name": "The Owl",
+    "category": "Primary Monster",
+    "threat": "High",
+    "immortal": true,
+    "description": "A dangerous aerial entity that appears after certain nights.",
+    "behavior": "Swoops down on players in open areas.",
+    "tips": ["Stay near dense trees", "The campfire provides some protection"]
+  },
+  {
+    "id": "the-ram",
+    "name": "The Ram",
+    "category": "Primary Monster",
+    "threat": "High",
+    "immortal": true,
+    "description": "A powerful ram entity that charges players.",
+    "behavior": "Charges in straight lines with high knockback.",
+    "tips": ["Step sideways to dodge charges", "Use trees as barriers"]
+  },
+  {
+    "id": "the-bat",
+    "name": "The Bat",
+    "category": "Primary Monster",
+    "threat": "Medium",
+    "immortal": true,
+    "description": "Aerial entity that appears during night phases.",
+    "behavior": "Circles before diving at players.",
+    "tips": ["Watch for circling shadows", "Stay mobile"]
+  },
+  {
+    "id": "the-cat",
+    "name": "The Cat",
+    "category": "Primary Monster",
+    "threat": "High",
+    "immortal": true,
+    "description": "A swift and dangerous feline entity.",
+    "behavior": "Extremely fast and unpredictable movement.",
+    "tips": ["Do not outrun — it will catch you", "Use obstacles to break pursuit"]
+  },
+  {
+    "id": "cultist",
+    "name": "Cultist",
+    "category": "Hostile",
+    "threat": "Medium",
+    "immortal": false,
+    "description": "The most common enemy. Cultists raid your base every night.",
+    "behavior": "Spawn in groups and attack the campfire and players.",
+    "tips": ["Prioritize killing Crossbow Cultists first", "Turrets (Engineer class) handle them well"]
+  },
+  {
+    "id": "cultist-king",
+    "name": "Cultist King",
+    "category": "Boss",
+    "threat": "Extreme",
+    "immortal": false,
+    "description": "A powerful summoned boss that appears during specific ritual events.",
+    "behavior": "High health pool, AoE attacks, summons more cultists.",
+    "tips": ["Focus fire with whole team", "Keep distance and use ranged weapons"]
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "category": "Hostile Wildlife",
+    "threat": "Low",
+    "immortal": false,
+    "description": "Standard wolves that patrol forest areas.",
+    "behavior": "Attacks if you enter their territory.",
+    "tips": ["Easy to kill", "Drop meat and pelts"]
+  },
+  {
+    "id": "alpha-wolf",
+    "name": "Alpha Wolf",
+    "category": "Hostile Wildlife",
+    "threat": "Medium",
+    "immortal": false,
+    "description": "Larger, stronger wolf with more health and damage.",
+    "behavior": "Leads wolf packs. More aggressive than standard wolves.",
+    "tips": ["Kill standard wolves first", "Valuable pelt drop"]
+  },
+  {
+    "id": "bear",
+    "name": "Bear",
+    "category": "Hostile Wildlife",
+    "threat": "Medium",
+    "immortal": false,
+    "description": "A large bear that can deal significant damage.",
+    "behavior": "Charges when agitated. Tanky.",
+    "tips": ["Use hit-and-run tactics", "Big Game Hunter class gets bonus loot"]
+  },
+  {
+    "id": "bunny",
+    "name": "Bunny",
+    "category": "Passive Animal",
+    "threat": "None",
+    "immortal": false,
+    "description": "Entirely passive. Good early food source.",
+    "behavior": "Flees when approached.",
+    "tips": ["Easy early-game food", "Drops rabbit meat"]
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "category": "Passive Animal",
+    "threat": "None",
+    "immortal": false,
+    "description": "A passive animal found in open areas.",
+    "behavior": "Passive unless attacked.",
+    "tips": ["Good meat source", "Can be used for transport in some scenarios"]
+  },
+  {
+    "id": "woolly-mammoth",
+    "name": "Woolly Mammoth",
+    "category": "Passive Animal",
+    "threat": "Low",
+    "immortal": false,
+    "description": "Generally passive but will trample players if provoked.",
+    "behavior": "Passive. Becomes hostile if attacked.",
+    "tips": ["Rich food source if you can kill it", "Requires good gear", "Will trample — keep your distance"]
+  }
+]
