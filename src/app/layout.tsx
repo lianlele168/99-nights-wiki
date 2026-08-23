@@ -4,10 +4,12 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import config from "@/data/game.config.json";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://99-nights-wiki.com"),
+  metadataBase: new URL(config.seo.baseUrl),
   title: {
     default: "99 Nights in the Forest Wiki — Codes, Class Tier List & Guides 2026",
     template: "%s | 99 Nights in the Forest Wiki",

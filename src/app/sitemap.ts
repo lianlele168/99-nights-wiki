@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
+import config from '@/data/game.config.json';
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://99-nights-wiki.com';
+const BASE_URL = config.seo.baseUrl;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
