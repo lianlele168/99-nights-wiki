@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+import AuthorCard from '@/components/AuthorCard';
 import { 
   Flame, 
   Key, 
@@ -146,6 +148,40 @@ export default function HomePage() {
 
           </div>
         </section>
+
+        {/* E-E-A-T AUTHOR VERIFICATION */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AuthorCard />
+
+          {/* VISUAL GAMEPLAY SHOWCASE */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+            <div className="rounded-2xl overflow-hidden border border-emerald-900/60 bg-emerald-950/40 p-4">
+              <Image
+                src="/images/99nights-header.webp"
+                alt="99 Nights in the Forest Official Game Icon"
+                width={512}
+                height={512}
+                className="rounded-xl object-cover w-full h-56 border border-emerald-800/40"
+                priority
+              />
+              <p className="text-xs text-emerald-300 mt-2.5 text-center font-medium">
+                Figure 1: Official 99 Nights in the Forest Game Cover Icon.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-emerald-900/60 bg-emerald-950/40 p-4">
+              <Image
+                src="/images/99nights-gameplay.webp"
+                alt="99 Nights in the Forest Campfire Arena"
+                width={768}
+                height={432}
+                className="rounded-xl object-cover w-full h-56 border border-emerald-800/40"
+              />
+              <p className="text-xs text-emerald-300 mt-2.5 text-center font-medium">
+                Figure 2: Midnight Campfire Defense with Fortified Spike Barricades.
+              </p>
+            </div>
+          </div>
+        </div>
 
         {/* INTERACTIVE HUB TOOLS GRID */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
