@@ -126,6 +126,11 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/terms" className="hover:text-emerald-400 transition-colors">
+                  Terms of Use
+                </Link>
+              </li>
             </ul>
             <div className="p-3 rounded-xl bg-gray-900/60 border border-gray-800/80 text-[11px] text-gray-400 leading-normal">
               <Shield className="w-3.5 h-3.5 text-emerald-500 inline mr-1" />
