@@ -6,7 +6,8 @@
     "developer": "Grandma's Favorite Games",
     "genre": "Survival Horror",
     "currentVersion": "2026",
-    "lastUpdated": "2026-08-23"
+    "lastUpdated": "2026-08-23",
+    "robloxUrl": "https://www.roblox.com/games/17625359962/99-Nights-in-the-Forest"
   },
   "stats": {
     "visits": "1B+",
@@ -69,11 +70,6 @@
       "path": "/beginner-guide",
       "title": "99 Nights in the Forest Beginner Guide",
       "priority": "0.8"
-    },
-    {
-      "path": "/about",
-      "title": "About",
-      "priority": "0.3"
     }
   ]
 }
