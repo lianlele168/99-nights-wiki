@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: '99 Nights Flame Combination Guide — All 13 Flame Types (2026)',
   description:
     'Complete flame guide for 99 Nights in the Forest. Learn all 13 flame types, campfire bonuses, recipe combinations, and how to get them.',
-  alternates: { canonical: 'https://99-nights-wiki.com/flame-guide' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/flame-guide/' },
 };
 
 const flames = [

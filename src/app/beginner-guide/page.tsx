@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: '99 Nights in the Forest Beginner Guide — Night 1 to 99 Roadmap (2026)',
   description:
     'Beginner survival guide for 99 Nights in the Forest. Learn campfire management, wood hoarding, Scavenger class perks, and monster counter-tactics.',
-  alternates: { canonical: 'https://99-nights-wiki.com/beginner-guide' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/beginner-guide/' },
 };
 
 const steps = [

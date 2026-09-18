@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: '99 Nights in the Forest Wiki — Codes, Class Tier List & Calculator 2026',
   description:
     'The #1 unofficial 99 Nights in the Forest wiki. Access active redeem codes, interactive survival calculator, S-tier class rankings, entity bestiary, and diamond guides.',
-  alternates: { canonical: 'https://99-nights-wiki.com' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/' },
 };
 
 export default function HomePage() {
@@ -66,10 +66,10 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: '99 Nights in the Forest Wiki',
-    url: 'https://99-nights-wiki.com',
+    url: 'https://99nights.robloxwikihub.com',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://99-nights-wiki.com/codes?q={search_term_string}',
+      target: 'https://99nights.robloxwikihub.com/codes?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };

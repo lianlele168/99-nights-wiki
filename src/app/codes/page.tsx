@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '99 Nights in the Forest Codes (August 2026) — Free Diamonds & Rewards',
   description:
     'All working 99 Nights in the Forest codes for August 2026. Redeem free Diamonds, Flames, and exclusive event items. Updated daily with verified codes.',
-  alternates: { canonical: 'https://99-nights-wiki.com/codes' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/codes/' },
 };
 
 export default function CodesPage() {
@@ -14,7 +14,7 @@ export default function CodesPage() {
     '@type': 'ItemPage',
     name: '99 Nights in the Forest Codes',
     description: 'Active redeem codes for 99 Nights in the Forest on Roblox.',
-    url: 'https://99-nights-wiki.com/codes',
+    url: 'https://99nights.robloxwikihub.com/codes',
   };
 
   return (

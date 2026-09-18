@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://99-nights-wiki.com/sitemap.xml
+Sitemap: https://99nights.robloxwikihub.com/sitemap.xml

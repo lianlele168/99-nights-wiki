@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: '99 Nights in the Forest Diamonds Guide — How to Get & Spend (2026)',
   description:
     'Complete diamonds guide for 99 Nights in the Forest. Learn how to earn free Diamonds fast, priority class purchases, and active code rewards.',
-  alternates: { canonical: 'https://99-nights-wiki.com/diamonds-guide' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/diamonds-guide/' },
 };
 
 const earningMethods = [

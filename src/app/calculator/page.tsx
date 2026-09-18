@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '99 Nights Survival & Resource Calculator (August 2026)',
   description:
     'Interactive 99 Nights in the Forest survival calculator. Calculate maximum nights survived, campfire warmth decay, cultist defense rating, and diamond earnings for your build.',
-  alternates: { canonical: 'https://99-nights-wiki.com/calculator' },
+  alternates: { canonical: 'https://99nights.robloxwikihub.com/calculator/' },
 };
 
 export default function CalculatorPage() {
@@ -13,7 +13,7 @@ export default function CalculatorPage() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: '99 Nights Survival Calculator',
-    url: 'https://99-nights-wiki.com/calculator',
+    url: 'https://99nights.robloxwikihub.com/calculator',
     applicationCategory: 'GameApplication',
     operatingSystem: 'All',
     description: 'Calculate max survival nights, resource burn rates, and diamond income in 99 Nights in the Forest.',

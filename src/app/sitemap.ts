@@ -14,11 +14,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/diamonds-guide', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/flame-guide', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/beginner-guide', priority: 0.8, changeFrequency: 'monthly' as const },
-    { path: '/about', priority: 0.3, changeFrequency: 'monthly' as const },
     ];
 
   return routes.map((route) => ({
-    url: `${BASE_URL}${route.path}`,
+    url: `${BASE_URL}${route.path.endsWith('/') ? route.path : `${route.path}/`}`,
     lastModified: new Date(),
     changeFrequency: route.changeFrequency,
     priority: route.priority,
