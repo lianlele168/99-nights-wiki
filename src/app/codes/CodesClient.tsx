@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { 
-  Key, 
   Check, 
   Copy, 
   Sparkles, 
@@ -15,6 +14,8 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import codesData from '@/data/codes.json';
+import LastVerified from '@/components/LastVerified';
+import AuthorCard from '@/components/AuthorCard';
 
 export default function CodesClient() {
   const [filter, setFilter] = useState<'all' | 'active' | 'expired'>('active');
@@ -53,10 +54,7 @@ export default function CodesClient() {
 
       {/* Hero Header */}
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-xs font-semibold text-emerald-300 mb-4 shadow-glow">
-          <Key className="w-4 h-4 text-emerald-400" />
-          Verified Active · September 18, 2026
-        </div>
+        <LastVerified className="mb-4" />
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
           99 Nights in the Forest <span className="text-emerald-400">Codes</span>
         </h1>
@@ -296,6 +294,8 @@ export default function CodesClient() {
           </Link>
         </div>
       </div>
+
+      <AuthorCard />
 
     </div>
   );
