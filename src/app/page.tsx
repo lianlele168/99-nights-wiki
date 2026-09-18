@@ -93,7 +93,7 @@ export default function HomePage() {
             {/* Version & Status Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/90 border border-emerald-700/60 text-xs font-semibold text-emerald-300 mb-6 shadow-glow">
               <Flame className="w-4 h-4 text-emerald-400 animate-pulse" />
-              <span>Official 2026 Survival Hub · Updated {config.game.lastUpdated}</span>
+              <span>Official Survival Hub</span>
             </div>
 
             {/* Title */}
@@ -265,7 +265,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-2">
                   <Key className="w-5 h-5 text-emerald-400" />
                   <h2 className="text-2xl font-extrabold text-white tracking-tight">
-                    Working Codes (August 2026)
+                    Working Codes 
                   </h2>
                 </div>
                 <p className="text-xs text-gray-400 mt-1">Copy active codes directly below for free Diamonds & Flames.</p>

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import CodesClient from './CodesClient';
 
 export const metadata: Metadata = {
-  title: '99 Nights in the Forest Codes (September 2026) — Free Diamonds & Rewards',
+  title: '99 Nights in the Forest Codes — Free Diamonds & Rewards',
   description:
-    'All 3 working 99 Nights in the Forest codes for September 2026, verified on September 18. Redeem free Diamonds and random Flames, plus the secret yay fishing chat code.',
+    'All 3 working 99 Nights in the Forest codes for,  verified on September 18. Redeem free Diamonds and random Flames, plus the secret yay fishing chat code.',
   alternates: { canonical: 'https://99nights.robloxwikihub.com/codes/' },
 };
 

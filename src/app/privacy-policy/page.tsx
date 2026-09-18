@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy &amp; Trust Disclosures
         </h1>
         <p className="text-xs sm:text-sm text-slate-400">
-          Last updated: {config.game.lastUpdated}. Unofficial fan guide and survival tools for {config.game.name}.
+          Unofficial fan guide and survival tools for {config.game.name}.
         </p>
       </div>
 

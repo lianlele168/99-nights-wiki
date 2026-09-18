@@ -9,7 +9,7 @@
     "level2Req": "Open 50 chests",
     "level3Req": "Open 150 chests",
     "bestFor": ["Solo", "Beginners", "Loot farming"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   },
   {
     "id": "engineer",
@@ -21,7 +21,7 @@
     "level2Req": "Build 20 turrets",
     "level3Req": "Build 60 turrets",
     "bestFor": ["Team play", "Camp defense", "Advanced players"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   },
   {
     "id": "big-game-hunter",
@@ -33,7 +33,7 @@
     "level2Req": "Kill 30 large animals",
     "level3Req": "Kill 100 large animals",
     "bestFor": ["Solo", "Resource farming"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   },
   {
     "id": "cyborg",
@@ -45,7 +45,7 @@
     "level2Req": "Deal 5000 total damage",
     "level3Req": "Deal 20000 total damage",
     "bestFor": ["Combat", "Team play"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   },
   {
     "id": "assassin",
@@ -57,7 +57,7 @@
     "level2Req": "Perform 20 backstabs",
     "level3Req": "Perform 60 backstabs",
     "bestFor": ["Solo", "PvP", "Advanced players"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   },
   {
     "id": "camper",
@@ -69,6 +69,6 @@
     "level2Req": "Burn 200 logs",
     "level3Req": "Burn 600 logs",
     "bestFor": ["Beginners", "Budget players"],
-    "updatedDate": "2026-08-01"
+    "updatedDate": ""
   }
 ]

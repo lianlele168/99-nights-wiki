@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CalculatorClient from './CalculatorClient';
 
 export const metadata: Metadata = {
-  title: '99 Nights Survival & Resource Calculator (August 2026)',
+  title: '99 Nights Survival & Resource Calculator ',
   description:
     'Interactive 99 Nights in the Forest survival calculator. Calculate maximum nights survived, campfire warmth decay, cultist defense rating, and diamond earnings for your build.',
   alternates: { canonical: 'https://99nights.robloxwikihub.com/calculator/' },

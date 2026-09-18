@@ -14,7 +14,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import codesData from '@/data/codes.json';
-import LastVerified from '@/components/LastVerified';
+
 import AuthorCard from '@/components/AuthorCard';
 
 export default function CodesClient() {
@@ -54,12 +54,12 @@ export default function CodesClient() {
 
       {/* Hero Header */}
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <LastVerified className="mb-4" />
+        
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
           99 Nights in the Forest <span className="text-emerald-400">Codes</span>
         </h1>
         <p className="text-gray-300 text-base sm:text-lg">
-          Get free Diamonds, Flames, and exclusive rewards. All 3 working codes were re-tested on September 18, 2026 — every reward below shows the exact amount you receive.
+          Get free Diamonds, Flames, and exclusive rewards. All 3 working codes were re-tested on — every reward below shows the exact amount you receive.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export default function CodesClient() {
           </div>
         </div>
         <div className="flex items-center gap-2 font-mono text-xs text-gray-400 bg-gray-950 px-4 py-2 rounded-xl border border-gray-800">
-          <Clock className="w-4 h-4 text-emerald-400" /> Last Checked: <span className="text-white">September 18, 2026</span>
+          <Clock className="w-4 h-4 text-emerald-400" /> Last Checked: <span className="text-white"></span>
         </div>
       </div>
 

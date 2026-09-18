@@ -46,7 +46,7 @@ export default function ClassTierClient() {
       <div className="text-center max-w-3xl mx-auto mb-12">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-xs font-semibold text-emerald-300 mb-4 shadow-glow">
           <Award className="w-4 h-4 text-emerald-400" />
-          Meta Rankings · August 2026
+          Meta Rankings · 
         </div>
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
           99 Nights in the Forest <span className="text-emerald-400">Class Tier List</span>
