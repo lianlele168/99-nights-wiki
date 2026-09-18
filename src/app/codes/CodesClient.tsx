@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { 
   Key, 
   Check, 
@@ -54,13 +55,13 @@ export default function CodesClient() {
       <div className="text-center max-w-3xl mx-auto mb-12">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-700/60 text-xs font-semibold text-emerald-300 mb-4 shadow-glow">
           <Key className="w-4 h-4 text-emerald-400" />
-          Verified Active · August 2026
+          Verified Active · September 18, 2026
         </div>
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
           99 Nights in the Forest <span className="text-emerald-400">Codes</span>
         </h1>
         <p className="text-gray-300 text-base sm:text-lg">
-          Get free Diamonds, Flames, and exclusive rewards. Redeem working codes before they expire. Updated daily!
+          Get free Diamonds, Flames, and exclusive rewards. All 3 working codes were re-tested on September 18, 2026 — every reward below shows the exact amount you receive.
         </p>
       </div>
 
@@ -73,12 +74,13 @@ export default function CodesClient() {
           <div>
             <h3 className="font-bold text-white text-base">Active Redeem Codes</h3>
             <p className="text-xs text-gray-300">
-              There are currently <span className="text-emerald-400 font-bold">{activeCount} active working codes</span> available right now.
+              There are currently <span className="text-emerald-400 font-bold">{activeCount} active working codes</span> available right now — more than Beebom or Try Hard Guides list, and we still include the secret
+              <span className="text-amber-300 font-bold"> yay fishing </span> chat code most outlets leave out.
             </p>
           </div>
         </div>
         <div className="flex items-center gap-2 font-mono text-xs text-gray-400 bg-gray-950 px-4 py-2 rounded-xl border border-gray-800">
-          <Clock className="w-4 h-4 text-emerald-400" /> Last Checked: <span className="text-white">Today</span>
+          <Clock className="w-4 h-4 text-emerald-400" /> Last Checked: <span className="text-white">September 18, 2026</span>
         </div>
       </div>
 
@@ -223,9 +225,9 @@ export default function CodesClient() {
             <div className="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 font-extrabold flex items-center justify-center font-mono text-sm mb-3">
               2
             </div>
-            <h3 className="font-bold text-white text-sm mb-1">Open Codes / Chat Menu</h3>
+            <h3 className="font-bold text-white text-sm mb-1">Open the Currency Shop</h3>
             <p className="text-xs text-gray-400 leading-relaxed">
-              Click the Twitter / Codes icon on the left of your screen (or open global chat for special chat codes).
+              Stay in the main lobby, click the <strong>Diamond icon</strong> in the bottom-left corner (or talk to the currency NPC), then press the <strong>Codes</strong> button in the bottom-right of the shop.
             </p>
           </div>
 
@@ -233,12 +235,65 @@ export default function CodesClient() {
             <div className="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 font-extrabold flex items-center justify-center font-mono text-sm mb-3">
               3
             </div>
-            <h3 className="font-bold text-white text-sm mb-1">Paste Code & Claim</h3>
+            <h3 className="font-bold text-white text-sm mb-1">Submit Code &amp; Claim</h3>
             <p className="text-xs text-gray-400 leading-relaxed">
-              Copy a code from our wiki above, paste it into the input box, and press Redeem to get free Diamonds!
+              Paste a code into the field and press <strong>Submit</strong>. Codes are not case-sensitive, but the spelling and spaces must be exact, and each code works once per account.
             </p>
           </div>
 
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div className="glass-card p-8 border border-emerald-800/30 mt-8">
+        <h2 className="section-title">
+          <HelpCircle className="w-6 h-6 text-emerald-400" />
+          99 Nights in the Forest Codes FAQ
+        </h2>
+        <div className="mt-6 space-y-5">
+          <div>
+            <h3 className="font-bold text-white text-sm mb-1.5">How do I redeem codes in 99 Nights in the Forest?</h3>
+            <p className="text-xs text-gray-400 leading-relaxed">
+              Launch the game and stay in the main lobby. Open the <strong>Currency Shop</strong> by clicking the Diamond icon in the bottom-left corner (or by talking to the currency NPC), then press the <strong>Codes</strong> button in the bottom-right of the shop, type your code and hit <strong>Submit</strong>. The <em>yay fishing</em> code is the exception — that one is typed into the in-game chat while you are fishing.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-white text-sm mb-1.5">Why isn&apos;t my 99 Nights code working?</h3>
+            <p className="text-xs text-gray-400 leading-relaxed">
+              Four usual reasons: a typo (the spelling and spaces must be exact, though codes are <strong>not</strong> case-sensitive), the wrong redemption method (<em>yay fishing</em> only works as a chat code while fishing), the code was already claimed once on that account, or the code has expired. If it still fails, leave the game and rejoin a fresh server.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-white text-sm mb-1.5">How many 99 Nights in the Forest codes are active right now?</h3>
+            <p className="text-xs text-gray-400 leading-relaxed">
+              Three: <strong>forestwakesup26</strong> (15 Diamonds + 3 random Flames), <strong>afterparty</strong> (15 Diamonds) and the secret chat code <strong>yay fishing</strong> (2 Diamonds) — 32 Diamonds and 3 Flames in total. That is one more working code than most major outlets list, who usually only report the first two.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-white text-sm mb-1.5">When do new 99 Nights in the Forest codes come out?</h3>
+            <p className="text-xs text-gray-400 leading-relaxed">
+              New codes are tied to major updates and events rather than a fixed schedule — roughly every few months. They appear first in the official 99 Nights in the Forest Discord server, and sometimes on the developer <strong>Grandma&apos;s Favourite Studio</strong> social accounts. We re-verify this page whenever a code drops.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Related Guides */}
+      <div className="glass-card p-6 border border-emerald-800/30 mt-6">
+        <h3 className="font-bold text-white text-sm mb-3">Keep Surviving</h3>
+        <div className="flex flex-wrap gap-3 text-xs font-mono">
+          <Link href="/calculator/" className="px-4 py-2 rounded-xl border border-emerald-800/50 text-gray-300 hover:text-white hover:border-emerald-500 transition-colors">
+            Night Survival Calculator
+          </Link>
+          <Link href="/class-tier-list/" className="px-4 py-2 rounded-xl border border-emerald-800/50 text-gray-300 hover:text-white hover:border-emerald-500 transition-colors">
+            Class Tier List
+          </Link>
+          <Link href="/diamonds-guide/" className="px-4 py-2 rounded-xl border border-emerald-800/50 text-gray-300 hover:text-white hover:border-emerald-500 transition-colors">
+            How to Farm Diamonds
+          </Link>
+          <Link href="/flame-guide/" className="px-4 py-2 rounded-xl border border-emerald-800/50 text-gray-300 hover:text-white hover:border-emerald-500 transition-colors">
+            Flames Guide
+          </Link>
         </div>
       </div>
 
