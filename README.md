@@ -7,6 +7,8 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+
+> 🎮 **Live site:** [https://99nights.robloxwikihub.com](https://99nights.robloxwikihub.com) — interactive calculators, verified code lists, tier lists & guides.
 yarn dev
 # or
 pnpm dev
