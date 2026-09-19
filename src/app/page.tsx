@@ -367,6 +367,61 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* RECENT OFFICIAL GAME UPDATES */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-8">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2">
+              <Sparkles className="w-6 h-6 text-emerald-400" />
+              Recent Game Updates
+            </h2>
+            <p className="text-xs text-gray-400 mt-1">Last 30 days of 99 Nights in the Forest updates, sourced from official update coverage — every entry links its source.</p>
+          </div>
+
+          <div className="space-y-4">
+            <div className="glass-card p-5 border border-emerald-900/40 space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="px-2 py-0.5 text-[10px] font-bold bg-emerald-500/15 text-emerald-300 rounded border border-emerald-500/30">September 3, 2026</span>
+                <span className="text-sm font-bold text-white">Jungle Biome update</span>
+              </div>
+              <p className="text-xs text-gray-300 leading-relaxed">
+                Another update for the Jungle Biome shipped on September 3, 2026 (no new codes were released alongside it). As of this update the game lists 39 available classes plus 7 limited-time classes.
+              </p>
+              <a href="https://www.pcgamer.com/games/roblox/99-nights-in-the-forest-codes" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-400 hover:text-emerald-300 font-mono">
+                <span>Source: PC Gamer — 99 Nights in the Forest codes (September 2026)</span>
+                <ArrowRight className="w-3 h-3" />
+              </a>
+            </div>
+
+            <div className="glass-card p-5 border border-emerald-900/40 space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="px-2 py-0.5 text-[10px] font-bold bg-emerald-500/15 text-emerald-300 rounded border border-emerald-500/30">September 3, 2026</span>
+                <span className="text-sm font-bold text-white">New classes: Escape Artist, Woodsman &amp; Elemental</span>
+              </div>
+              <p className="text-xs text-gray-300 leading-relaxed">
+                Recent updates added new classes including Escape Artist and Woodsman, plus new badges such as the Escape Artist&apos;s Quest badge, expanding the class roster verified on the community wiki.
+              </p>
+              <a href="https://99-nights-in-the-forest.fandom.com/wiki/Classes" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-400 hover:text-emerald-300 font-mono">
+                <span>Source: 99 Nights in the Forest Wiki (Fandom) — Classes</span>
+                <ArrowRight className="w-3 h-3" />
+              </a>
+            </div>
+
+            <div className="glass-card p-5 border border-emerald-900/40 space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="px-2 py-0.5 text-[10px] font-bold bg-emerald-500/15 text-emerald-300 rounded border border-emerald-500/30">September 2026</span>
+                <span className="text-sm font-bold text-white">Active codes: FORESTWAKESUP26 &amp; AFTERPARTY</span>
+              </div>
+              <p className="text-xs text-gray-300 leading-relaxed">
+                The current September 2026 code set includes FORESTWAKESUP26 (15 gems + 3 random flames), AFTERPARTY (15 gems), and YAY FISHING (2 gems, fishing chat minigame).
+              </p>
+              <a href="https://www.pcgamer.com/games/roblox/99-nights-in-the-forest-codes" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-400 hover:text-emerald-300 font-mono">
+                <span>Source: PC Gamer — 99 Nights in the Forest codes (September 2026)</span>
+                <ArrowRight className="w-3 h-3" />
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ ACCORDION SECTION */}
         <section className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8">
