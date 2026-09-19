@@ -7,16 +7,16 @@ export default function AuthorCard() {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-emerald-500/20">
-            NF
+            H
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-white text-sm sm:text-base">Roblox Wiki Hub Research Desk</span>
+              <span className="font-bold text-white text-sm sm:text-base">Hlele</span>
               <span className="inline-flex items-center gap-1 text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
-                <ShieldCheck className="w-3 h-3" /> Verified by lianlele168</span>
+                <ShieldCheck className="w-3 h-3" /> Editor</span>
             </div>
             <p className="text-xs text-emerald-300">
-              Verified 99 Nights in the Forest Speedrunner & Defense Theorycrafter • 800+ In-Game Days Logged
+              Editor • AI-assisted research, human-reviewed
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function AuthorCard() {
       </div>
 
       <p className="text-xs text-emerald-400/80 mt-3 pt-3 border-t border-emerald-900/40 leading-relaxed">
-        <strong>Review Methodology:</strong> Monster aggro radiuses, campfire fuel burn rates, and class turret DPS formulas were tested live through solo and 4-player Night 99 full clears.
-       Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail.com" className="underline hover:text-white">lianlele168@gmail.com</a>.</p>
+        <strong>Review Methodology:</strong> Monster aggro radiuses, campfire fuel burn rates, and class turret DPS figures are compiled with AI-assisted research and cross-checked against multiple community sources; every figure we could not independently confirm is explicitly labeled as unverified.
+       Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail" className="underline hover:text-white">lianlele168@gmail</a>.</p>
     </div>
   );
 }

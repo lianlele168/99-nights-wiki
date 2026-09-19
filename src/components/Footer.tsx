@@ -147,6 +147,9 @@ export default function Footer() {
             Made with <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500/20" /> by 99 Nights Wiki Team
           </p>
         </div>
+        <div className="pt-4 text-[11px] text-gray-600 text-center w-full">
+          <p>Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail</p>
+        </div>
       </div>
     </footer>
   );

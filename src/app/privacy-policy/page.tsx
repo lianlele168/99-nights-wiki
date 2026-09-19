@@ -127,7 +127,7 @@ export default function PrivacyPolicyPage() {
             For privacy inquiries, DMCA notices, or correction requests, reach our editorial team directly at:
           </p>
           <div className="inline-block rounded-xl border border-emerald-500/30 bg-emerald-950/40 p-3 font-mono text-sm font-bold text-emerald-300">
-            lianlele168@gmail.com
+            lianlele168@gmail
           </div>
           <p className="text-xs text-slate-400 font-mono">
             Inquiries are acknowledged and resolved within 48 business hours.
