@@ -1,74 +1,939 @@
 [
   {
+    "id": "lumberjack",
+    "name": "Lumberjack",
+    "tier": "B",
+    "cost": 70,
+    "badgeReq": 0,
+    "startItems": "Health Charm, Log",
+    "description": "Documented on the community wiki: 70 diamonds. Starts with Health Charm, Log.",
+    "perks": [
+      "Lv2 (700xp): axe damage +50%",
+      "Lv3 (1200xp): chops wood 1/3 faster"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "cook",
+    "name": "Cook",
+    "tier": "B",
+    "cost": 40,
+    "badgeReq": 1,
+    "startItems": "1x Steak",
+    "description": "Documented on the community wiki: 40 diamonds, requires 1 badge. Starts with 1x Steak.",
+    "perks": [
+      "1 hunger drain",
+      "3 hunger restore",
+      "Lv2 (500xp): Crockpot cooks 20% faster",
+      "Lv3 (1200xp): 25% chance to make Hearty Stew"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "fisher",
+    "name": "Fisher",
+    "tier": "B",
+    "cost": 40,
+    "badgeReq": 1,
+    "startItems": "1x Salmon",
+    "description": "Documented on the community wiki: 40 diamonds, requires 1 badge. Starts with 1x Salmon.",
+    "perks": [
+      "Fishing never fails",
+      "Lv3 (900xp): 3x chance of double fish"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "medic",
+    "name": "Medic",
+    "tier": "B",
+    "cost": 40,
+    "badgeReq": 2,
+    "startItems": "2x Bandage",
+    "description": "Documented on the community wiki: 40 diamonds, requires 2 badges. Starts with 2x Bandage.",
+    "perks": [
+      "Lv2 (700xp): revives teammates 5x faster"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "tier": "B",
+    "cost": 45,
+    "badgeReq": 2,
+    "startItems": "1x Good Axe",
+    "description": "Documented on the community wiki: 45 diamonds, requires 2 badges. Starts with 1x Good Axe.",
+    "perks": [
+      "Lv2 (1000xp): attack damage +15%"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "support",
+    "name": "Support",
+    "tier": "B",
+    "cost": 50,
+    "badgeReq": 3,
+    "startItems": "2x Bandage",
+    "description": "Documented on the community wiki: 50 diamonds, requires 3 badges. Starts with 2x Bandage.",
+    "perks": [
+      "Others pick up your placed items 1/3 faster",
+      "Lv2 (1000xp): Crockpot crafts 20% faster"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
     "id": "scavenger",
     "name": "Scavenger",
-    "tier": "S",
-    "cost": 80,
-    "description": "Extra backpack space and faster chest opening. The best class for beginners and experienced players alike.",
-    "perks": ["Extra inventory slots", "Open chests 50% faster", "Find more loot in chests"],
-    "level2Req": "Open 50 chests",
-    "level3Req": "Open 150 chests",
-    "bestFor": ["Solo", "Beginners", "Loot farming"],
+    "tier": "B",
+    "cost": 60,
+    "badgeReq": 3,
+    "startItems": "Map",
+    "description": "Documented on the community wiki: 60 diamonds, requires 3 badges. Starts with Map.",
+    "perks": [
+      "Lv2 (700xp): 1.5x chest XP"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Resource farming",
+      "Solo"
+    ],
     "updatedDate": ""
   },
   {
-    "id": "engineer",
-    "name": "Engineer",
-    "tier": "S",
-    "cost": 150,
-    "description": "Deploy automated turrets to defend your camp while you explore.",
-    "perks": ["Place automated turrets", "Turrets deal damage to cultists", "Build camp defenses"],
-    "level2Req": "Build 20 turrets",
-    "level3Req": "Build 60 turrets",
-    "bestFor": ["Team play", "Camp defense", "Advanced players"],
-    "updatedDate": ""
-  },
-  {
-    "id": "big-game-hunter",
-    "name": "Big Game Hunter",
-    "tier": "A",
-    "cost": 120,
-    "description": "Specialized in hunting large animals for maximum food and resources.",
-    "perks": ["Deal bonus damage to animals", "Extra meat from kills", "Track animal locations"],
-    "level2Req": "Kill 30 large animals",
-    "level3Req": "Kill 100 large animals",
-    "bestFor": ["Solo", "Resource farming"],
-    "updatedDate": ""
-  },
-  {
-    "id": "cyborg",
-    "name": "Cyborg",
-    "tier": "A",
-    "cost": 200,
-    "description": "Enhanced combat abilities with mechanical augmentations.",
-    "perks": ["Increased damage output", "Faster movement speed", "Reduced stamina cost"],
-    "level2Req": "Deal 5000 total damage",
-    "level3Req": "Deal 20000 total damage",
-    "bestFor": ["Combat", "Team play"],
-    "updatedDate": ""
-  },
-  {
-    "id": "assassin",
-    "name": "Assassin",
-    "tier": "A",
-    "cost": 180,
-    "description": "Stealth-focused class with high burst damage.",
-    "perks": ["Backstab bonus damage", "Reduced noise", "Sprint speed boost"],
-    "level2Req": "Perform 20 backstabs",
-    "level3Req": "Perform 60 backstabs",
-    "bestFor": ["Solo", "PvP", "Advanced players"],
+    "id": "farmer",
+    "name": "Farmer",
+    "tier": "B",
+    "cost": 70,
+    "badgeReq": 2,
+    "startItems": "1x Seed Box, 2x Carrot",
+    "description": "Documented on the community wiki: 70 diamonds, requires 2 badges. Starts with 1x Seed Box, 2x Carrot.",
+    "perks": [
+      "Lv3 (750xp): 2x chance of bonus harvest"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Resource farming",
+      "Solo"
+    ],
     "updatedDate": ""
   },
   {
     "id": "camper",
     "name": "Camper",
     "tier": "B",
-    "cost": 30,
-    "description": "A budget-friendly entry-level class. Good for new players saving diamonds.",
-    "perks": ["Basic campfire bonus", "Slightly reduced wood cost"],
-    "level2Req": "Burn 200 logs",
-    "level3Req": "Burn 600 logs",
-    "bestFor": ["Beginners", "Budget players"],
+    "cost": 80,
+    "badgeReq": 1,
+    "startItems": "Flashlight, Tent",
+    "description": "Documented on the community wiki: 80 diamonds, requires 1 badge. Starts with Flashlight, Tent.",
+    "perks": [
+      "Lv2 (600xp): hunger drains 25% slower"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "archer",
+    "name": "Archer",
+    "tier": "B",
+    "cost": 80,
+    "badgeReq": 1,
+    "startItems": "Crossbow, 3x Bolt",
+    "description": "Documented on the community wiki: 80 diamonds, requires 1 badge. Starts with Crossbow, 3x Bolt.",
+    "perks": [
+      "Crafts bolts faster",
+      "Lv2 (1200xp): chance to not consume bolts"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "detective",
+    "name": "Detective",
+    "tier": "B",
+    "cost": 80,
+    "badgeReq": 3,
+    "startItems": "Fedora",
+    "description": "Documented on the community wiki: 80 diamonds, requires 3 badges. Starts with Fedora.",
+    "perks": [
+      "Completes missing-child clues faster (front-atrium / temple / cave)"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "tier": "A",
+    "cost": 120,
+    "badgeReq": 4,
+    "startItems": "Hunting Rifle, 2x Ammo",
+    "description": "Documented on the community wiki: 120 diamonds, requires 4 badges. Starts with Hunting Rifle, 2x Ammo.",
+    "perks": [
+      "Excellent night vision",
+      "10% ammo refund on guns",
+      "Lv2 (1400xp): extra 5% ammo refund"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "decorator",
+    "name": "Decorator",
+    "tier": "A",
+    "cost": 120,
+    "badgeReq": 3,
+    "startItems": "Sofa",
+    "description": "Documented on the community wiki: 120 diamonds, requires 3 badges. Starts with Sofa.",
+    "perks": [
+      "Renovate and decorate your own shelter"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "gambler",
+    "name": "Gambler",
+    "tier": "A",
+    "cost": 100,
+    "badgeReq": 4,
+    "startItems": "1x Card Pack",
+    "description": "Documented on the community wiki: 100 diamonds, requires 4 badges. Starts with 1x Card Pack.",
+    "perks": [
+      "1/4 chance at the start of each night to gain a random item"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 3,
+    "startItems": "Refillable Torch",
+    "description": "Documented on the community wiki: 150 diamonds, requires 3 badges. Starts with Refillable Torch.",
+    "perks": [
+      "Smelts Old Iron 1.5x more efficiently"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Resource farming",
+      "Solo"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "miner",
+    "name": "Miner",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 3,
+    "startItems": "Pickaxe",
+    "description": "Documented on the community wiki: 150 diamonds, requires 3 badges. Starts with Pickaxe.",
+    "perks": [
+      "Mines every 3 minutes",
+      "15% chance of double drops"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Resource farming",
+      "Solo"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "zombie-undead",
+    "name": "Zombie (Undead)",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 4,
+    "startItems": "Class ID Card",
+    "description": "Documented on the community wiki: 150 diamonds, requires 4 badges. Starts with Class ID Card.",
+    "perks": [
+      "Lv3 (600xp): +16 walkspeed"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "fisherman",
+    "name": "Fisherman",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 3,
+    "startItems": "1x Fishing Rod",
+    "description": "Documented on the community wiki: 150 diamonds, requires 3 badges. Starts with 1x Fishing Rod.",
+    "perks": [
+      "Crafts fishing rods faster",
+      "Fishing never fails"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "big-game-hunter",
+    "name": "Big Game Hunter",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 3,
+    "startItems": "Hunting Rifle",
+    "description": "Documented on the community wiki: 150 diamonds, requires 3 badges. Starts with Hunting Rifle.",
+    "perks": [
+      "No survival-day cap"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Beginners",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "zookeeper",
+    "name": "Zookeeper",
+    "tier": "A",
+    "cost": 150,
+    "badgeReq": 4,
+    "startItems": "1x Flute",
+    "description": "Documented on the community wiki: 150 diamonds, requires 4 badges. Starts with 1x Flute.",
+    "perks": [
+      "Tame animals"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "brawler",
+    "name": "Brawler",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Enhanced unarmed melee"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "vampire",
+    "name": "Vampire",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Lifesteal-style perks"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "berserker",
+    "name": "Berserker",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "1x Bandage",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with 1x Bandage.",
+    "perks": [
+      "Lv3 (900xp): faster attack speed"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "vagabond",
+    "name": "Vagabond",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Survival-focused kit"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "firefighter",
+    "name": "Firefighter",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "Refillable Torch",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with Refillable Torch.",
+    "perks": [
+      "Lv2 (600xp): extinguishes teammates 25% faster"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "spy",
+    "name": "Spy",
+    "tier": "A",
+    "cost": 200,
+    "badgeReq": 4,
+    "startItems": "Matcha",
+    "description": "Documented on the community wiki: 200 diamonds, requires 4 badges. Starts with Matcha.",
+    "perks": [
+      "Lv2 (400xp): more likely to be the traitor role"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "tier": "A",
+    "cost": 200,
+    "badgeReq": 4,
+    "startItems": "1x Katana",
+    "description": "Documented on the community wiki: 200 diamonds, requires 4 badges. Starts with 1x Katana.",
+    "perks": [
+      "Melee assassin role"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "trickster",
+    "name": "Trickster",
+    "tier": "A",
+    "cost": 200,
+    "badgeReq": 4,
+    "startItems": "Class ID Card",
+    "description": "Documented on the community wiki: 200 diamonds, requires 4 badges. Starts with Class ID Card.",
+    "perks": [
+      "Lv2 (500xp): less likely to be picked for other roles"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "footballer",
+    "name": "Footballer",
+    "tier": "A",
+    "cost": 200,
+    "badgeReq": 3,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 200 diamonds, requires 3 badges. Starts with —.",
+    "perks": [
+      "Movement and stamina perks"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "gold-digger",
+    "name": "Gold Digger",
+    "tier": "A",
+    "cost": 200,
+    "badgeReq": 4,
+    "startItems": "Class ID Card",
+    "description": "Documented on the community wiki: 200 diamonds, requires 4 badges. Starts with Class ID Card.",
+    "perks": [
+      "Treasure-focused perks"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Resource farming",
+      "Solo"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "commando",
+    "name": "Commando",
+    "tier": "S",
+    "cost": 300,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 300 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Gun-focused class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "shark",
+    "name": "Shark",
+    "tier": "S",
+    "cost": 300,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 300 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Animal transformation class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "werewolf",
+    "name": "Werewolf",
+    "tier": "S",
+    "cost": 300,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 300 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Transformation class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "swordsman",
+    "name": "Swordsman",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Sword melee class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "jester",
+    "name": "Jester",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Chaos / fun role"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "gorilla",
+    "name": "Gorilla",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Animal class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Animal class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "tier": "A",
+    "cost": 250,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 250 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Animal class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "tier": "S",
+    "cost": 350,
+    "badgeReq": 4,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 350 diamonds, requires 4 badges. Starts with —.",
+    "perks": [
+      "Animal class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "tier": "S",
+    "cost": 350,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 350 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Melee berserker"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "cyborg",
+    "name": "Cyborg",
+    "tier": "S",
+    "cost": 399,
+    "badgeReq": 4,
+    "startItems": "Battery",
+    "description": "Documented on the community wiki: 399 diamonds, requires 4 badges. Starts with Battery.",
+    "perks": [
+      "Lv2 (400xp) / Lv3 (1000xp): battery charge mechanic"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "alien",
+    "name": "Alien",
+    "tier": "S",
+    "cost": 599,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 599 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Premium class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja",
+    "tier": "S",
+    "cost": 450,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 450 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Premium class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "witch",
+    "name": "Witch",
+    "tier": "S",
+    "cost": 400,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 400 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Premium class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "tier": "S",
+    "cost": 500,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 500 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Premium class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "necromancer",
+    "name": "Necromancer",
+    "tier": "S",
+    "cost": 500,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 500 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Summon / revival class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Team play",
+      "Advanced players",
+      "Late game"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "it",
+    "name": "It",
+    "tier": "S",
+    "cost": 666,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 666 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Easter-egg priced class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
+    "updatedDate": ""
+  },
+  {
+    "id": "mod",
+    "name": "Mod",
+    "tier": "A",
+    "cost": 99,
+    "badgeReq": 5,
+    "startItems": "—",
+    "description": "Documented on the community wiki: 99 diamonds, requires 5 badges. Starts with —.",
+    "perks": [
+      "Easter-egg class"
+    ],
+    "level2Req": "",
+    "level3Req": "",
+    "bestFor": [
+      "Solo",
+      "Team play"
+    ],
     "updatedDate": ""
   }
 ]
