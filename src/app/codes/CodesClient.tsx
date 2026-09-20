@@ -59,7 +59,7 @@ export default function CodesClient() {
           99 Nights in the Forest <span className="text-emerald-400">Codes</span>
         </h1>
         <p className="text-gray-300 text-base sm:text-lg">
-          Get free Diamonds, Flames, and exclusive rewards. All 3 working codes were re-tested on — every reward below shows the exact amount you receive.
+          Get free Diamonds, Flames, and exclusive rewards. All 3 working codes are cross-checked against the developer&apos;s official channels and community reports — every reward below shows the reported amount you receive.
         </p>
       </div>
 

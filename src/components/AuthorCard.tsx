@@ -28,7 +28,7 @@ export default function AuthorCard() {
           </div>
           <div className="flex items-center gap-1 bg-emerald-900/50 px-2.5 py-1 rounded-lg border border-emerald-800/40">
             <UserCheck className="w-3.5 h-3.5 text-teal-400" />
-            <span>Verified for Patch v1.6 (Night Terror)</span>
+            <span>Patch v1.6 (Night Terror)</span>
           </div>
         </div>
       </div>
