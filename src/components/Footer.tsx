@@ -47,7 +47,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed">
-              The premier unofficial wiki and strategy database for {config.game.name} on Roblox. Updated daily with verified codes, tier lists, and calculators.
+              The premier unofficial wiki and strategy database for {config.game.name} on Roblox. Active codes, tier lists, and calculators, cross-checked against public sources.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-900 border border-gray-800 text-[11px] font-mono text-emerald-400">
               <span>Database Version: {config.game.currentVersion}</span>

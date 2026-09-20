@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | 99 Nights in the Forest Wiki",
   },
   description:
-    "The #1 unofficial 99 Nights in the Forest wiki. Find all active codes, class tier list, entity guide, diamond tips, and survival strategies. Updated daily.",
+    "The #1 unofficial 99 Nights in the Forest wiki. Find all active codes, class tier list, entity guide, diamond tips, and survival strategies. Checked against public sources.",
   keywords: [
     "99 Nights in the Forest",
     "99 Nights in the Forest wiki",
